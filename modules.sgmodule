@@ -1,5 +1,5 @@
-name=Tartarus iOS Script Module
-desc=KE LE Mac iOS Script 模块配置
+#！name=Tartarus iOS Script Module
+#！desc=KE LE Mac iOS Script 模块配置
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307

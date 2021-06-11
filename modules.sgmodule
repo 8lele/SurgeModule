@@ -1,5 +1,3 @@
-#!name=模块list
-#!desc=KELE自用1
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307

@@ -1,5 +1,5 @@
 #!name=模块 
-#!desc=自用
+#!desc=KELE自用
 
 [URL Rewrite]
 (?<=_region=)CN(?=&) JP 307

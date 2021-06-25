@@ -7,6 +7,9 @@
 ^(https?:\/\/dm[\w-]+\.\w+\.com\/.+)(\?)(.+) $1$3 302
 (^https?:\/\/*\.\w{4}okv.com\/.+&.+)(\d{2}\.3\.\d)(.+) $118.0$3 302
 
+ctier=[A-Z] ctier=A 302
+^https:\/\/[\s\S]*\.googlevideo\.com/.*&(oad|ctier) _ REJECT
+
 [Script]
 jd_price = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,tag=京东比价
 
